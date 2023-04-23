@@ -11,7 +11,7 @@ def index():
 
 @app.route("/consulta")
 def consulta():
-    url = 'https://lhfoc56a5ww3gwwznvo5bexktq0mmzms.lambda-url.us-east-1.on.aws/v1'
+    url = 'https://lhfoc56a5ww3gwwznvo5bexktq0mmzms.lambda-url.us-east-1.on.aws/v1?limit=100'
     max_attempts = 3  # número máximo de tentativas
     attempts = 0  # contador de tentativas
     data = None  # inicializar a variável de dados
